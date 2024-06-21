@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #342a73;
+}
+
+h1, h2 {
+  color: beige;
+}
+
+form {
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+/* Fade transition */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
